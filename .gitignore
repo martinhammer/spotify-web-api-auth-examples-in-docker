@@ -1,0 +1,6 @@
+
+# Sublime Text specific
+*.sublime-project
+*.sublime-workspace
+
+# private files
