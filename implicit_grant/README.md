@@ -4,7 +4,7 @@ This is an attempt to run sample code from [Spotify Accounts Authentication Exam
 
 It is a personal toy project, the main objective being for me to learn about Docker.
 
-## How to run this code
+## Implicit Grant Flow - How to run this
 
 1. You need to have Docker installed.
 2. You need to have a Spotify account. 
@@ -12,7 +12,7 @@ It is a personal toy project, the main objective being for me to learn about Doc
 4. Note down the "Client ID" value.
 5. Click Edit Settings and enter the "Redirect URI" parameter as http://localhost:8888/index.html.
 6. Edit the Dockerfile and replace the values of CLIENT_ID and REDIRECT_URI parameters with the above values.
-7. Change directory to whereever you have placed the Dokcerfile, and build the Docker image and run, e.g.
+7. Change directory to whereever you have placed the Dockerfile, and build the Docker image and run, e.g.
 
 ```
 docker build -t spotify-example-implicit-grant .
